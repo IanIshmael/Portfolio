@@ -21,9 +21,7 @@ body {
     color: #fff;
   }
  
-  .top-nav{
-    color: #fff;
-  }
+  
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   h3 {
@@ -37,11 +35,11 @@ body {
       color: #ffffff;
     }
     .bg-2 { 
-    background-color: #8fa18c; /* Dark Blue */
+    background-color: #9b8db8; /* Dark Blue */
     color: #ffffff;
   }
   .bg-3 { 
-    background-color: #686a74; /* White */
+    background-color: #9999cb; /* White */
     color: #fff;
   }
   
