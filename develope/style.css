@@ -1,3 +1,11 @@
+:root{
+  --dark-purple: #25274d;
+--light-purple:  #464866;
+--light-pink:  #9b8db8;
+--light-blue:  #9999cb;
+
+
+}
 body {
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
@@ -11,7 +19,7 @@ body {
   margin-bottom: 0;
   font-size: 12px;
   letter-spacing: 5px;
-  background-color: #25274d; /* Black  */
+  background-color: var(--dark-purple);
 }
 
 .navbar-default .navbar-brand {
@@ -40,22 +48,41 @@ p {
 }
 
 .bg-1 {
-  background-color: #464866;
-  color: #ffffff;
+  color: #fff;
+  background-color: var(--light-purple)
+  
 }
 .bg-2 {
-  background-color: #9b8db8;
+  background-color: var(--light-pink); 
   color: #ffffff;
 }
 .bg-3 {
-  background-color: #9999cb;
+  background-color: var(--light-blue); 
   color: #fff;
 }
 
 .bg-4 {
-  background-color: #25274d;
+  background-color: var(--dark-purple); 
 }
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+.container-fluid.bg-4{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px;
+width: 100%;
+}
+.contact-info ul {
+display: flex;
+list-style: none;
+gap: 5rem;
+}
+.contact-info{
+  margin-right: 30px;
+}
+.contact-me{
+  margin-left: 30px;
 }
